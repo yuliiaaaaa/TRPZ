@@ -73,7 +73,8 @@ def show_repositories_for_vcs(vcs_type):
     # Display repositories for the chosen VCS type
     print(f"\nRepositories for {vcs_type}:")
     for repository in iterator:
-        print(Fore.BLUE + f"Name: {repository.name}, VCS Type: {repository.vcs_type}, URL: {repository.url}"+Fore.GREEN)
+        print(Fore.BLUE + f"Name: {repository.name}, "
+      f"VCS Type: {repository.vcs_type}, URL: {repository.url}"+Fore.GREEN)
 
 
 def process_vcs_commands(version_control, vcs_type, repo_name):

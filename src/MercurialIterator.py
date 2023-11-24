@@ -20,7 +20,7 @@ class MercurialRepositoryIterator(RepositoryIteratorInterface):
 
     def first(self):
         if len(self.repositories) > 0:
-            self.index = 0  # Set the index to the beginning of the collection
+            self.index = 0
         else:
             raise ValueError("Collection is empty")
 
