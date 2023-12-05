@@ -3,7 +3,7 @@ from datetime import date
 
 class IVersionControlSystem(ABC):
     @abstractmethod
-    def commit(self, repo_name, file_name, repo_id, message, commit_date: date):
+    def commit(self, path, file_name, message):
         pass
 
     @abstractmethod
@@ -13,7 +13,3 @@ class IVersionControlSystem(ABC):
     @abstractmethod
     def initialize_repository(self, repo_directory,vcs_type):
         pass
-
-    # @abstractmethod
-    # def watch_repository(self, type_iterator):
-    #     pass

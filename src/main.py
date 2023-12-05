@@ -11,6 +11,8 @@ from MercurialVersionControl import MercurialVersionControl
 from Repository import Repository
 from SVNIterator import SVNRepositoryIterator
 from SVNVersionControl import SVNVersionControl
+from src.AbsolutePathAdapter import AbsolutePathAdapter, convert_to_absolute_path
+from src.RelativePath import RelativePath
 
 
 def show_menu():
@@ -30,15 +32,17 @@ def main_menu():
         print("5. Exit")
 
         choice = input("Enter the number of your choice: ")
-        repo_name = None  # Initialize repo_name to None
+        repo_name = None
 
         if choice == "1":
             repo_name = input("Enter the path to your Git repository: ")
+            repo_name = convert_to_absolute_path(repo_name)
             version_control = GitVersionControl(connection)
             process_vcs_commands(version_control, "Git", repo_name)  # Pass repo_name to process_vcs_commands
         elif choice == "2":
             try:
                 repo_name = input("Enter the path to your Mercurial repository: ")
+                repo_name = convert_to_absolute_path(repo_name)
                 version_control = MercurialVersionControl(connection)
             except mercurial.error.RepoError as e:
                 print(f"Mercurial repository error: {e}")
@@ -49,6 +53,7 @@ def main_menu():
             process_vcs_commands(version_control, "Mercurial", repo_name)  # Pass repo_name to process_vcs_commands
         elif choice == "3":
             repo_name = input("Enter the path to your SVN repository: ")
+            repo_name = convert_to_absolute_path(repo_name)
             version_control = SVNVersionControl(connection)
             process_vcs_commands(version_control, "SVN", repo_name)  # Pass repo_name to process_vcs_commands
         elif choice == "5":
