@@ -1,18 +1,13 @@
 import os
 
 from colorama import Fore
-import mercurial
-
 from DatabaseConnection import connection
 from GitIterator import GitRepositoryIterator
-from GitVersionControl import GitVersionControl
 from MercurialIterator import MercurialRepositoryIterator
-from MercurialVersionControl import MercurialVersionControl
 from Repository import Repository
 from SVNIterator import SVNRepositoryIterator
-from SVNVersionControl import SVNVersionControl
 from src.AbsolutePathAdapter import AbsolutePathAdapter, convert_to_absolute_path
-from src.RelativePath import RelativePath
+from src.VCSFactory import VersionControlFactory
 
 
 def show_menu():
@@ -34,28 +29,12 @@ def main_menu():
         choice = input("Enter the number of your choice: ")
         repo_name = None
 
-        if choice == "1":
-            repo_name = input("Enter the path to your Git repository: ")
+        if choice in ["1", "2", "3"]:
+            vcs_type = "Git" if choice == "1" else "Mercurial" if choice == "2" else "SVN"
+            repo_name = input(f"Enter the path to your {vcs_type} repository: ")
             repo_name = convert_to_absolute_path(repo_name)
-            version_control = GitVersionControl(connection)
-            process_vcs_commands(version_control, "Git", repo_name)  # Pass repo_name to process_vcs_commands
-        elif choice == "2":
-            try:
-                repo_name = input("Enter the path to your Mercurial repository: ")
-                repo_name = convert_to_absolute_path(repo_name)
-                version_control = MercurialVersionControl(connection)
-            except mercurial.error.RepoError as e:
-                print(f"Mercurial repository error: {e}")
-                continue
-            except Exception as e:
-                print(f"Error initializing Mercurial Version Control: {e}")
-                continue
-            process_vcs_commands(version_control, "Mercurial", repo_name)  # Pass repo_name to process_vcs_commands
-        elif choice == "3":
-            repo_name = input("Enter the path to your SVN repository: ")
-            repo_name = convert_to_absolute_path(repo_name)
-            version_control = SVNVersionControl(connection)
-            process_vcs_commands(version_control, "SVN", repo_name)  # Pass repo_name to process_vcs_commands
+            version_control = VersionControlFactory.create_version_control_system(connection, vcs_type)
+            process_vcs_commands(version_control, vcs_type, repo_name)
         elif choice == "5":
             print("Exiting...")
             break
@@ -86,6 +65,9 @@ def process_vcs_commands(version_control, vcs_type, repo_name):
     while True:
         print(f"Selected Version Control System: {vcs_type}")
         print(f"Current Repository: {repo_name}")  # Display the current repository
+        if not os.path.isdir(repo_name):
+            print("Error: Repository path is invalid or does not exist.")
+            break
         print(f"Choose an action:")
         print("1. Commit")
         print("2. Watch History")
