@@ -3,10 +3,16 @@ import pysvn
 from colorama import Fore, Style
 
 from IVersionSystemControl import IVersionControlSystem
+from src.Repository import Repository
+from src.SVNIterator import SVNRepositoryIterator
+
 
 class SVNVersionControl(IVersionControlSystem):
     def __init__(self, connection):
         self.connection = connection
+
+    def accept(self, visitor):
+        visitor.visit_svn(self)
 
     def commit(self, repo_url, message):
         try:
@@ -43,5 +49,13 @@ class SVNVersionControl(IVersionControlSystem):
             except Exception as e:
                 print(f"Error initializing SVN repository: {e}")
 
+    def show_repositories(self):
+        repositories = Repository(self.connection).find_all()
+        iterator = SVNRepositoryIterator(repositories)
+
+        print("\nRepositories for Git:")
+        for repository in iterator:
+            print(
+                Fore.BLUE + f"Name: {repository.name}, VCS Type: {repository.vcs_type}, URL: {repository.url}" + Fore.GREEN)
 
 

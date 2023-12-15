@@ -7,6 +7,7 @@ from MercurialIterator import MercurialRepositoryIterator
 from Repository import Repository
 from SVNIterator import SVNRepositoryIterator
 from src.AbsolutePathAdapter import AbsolutePathAdapter, convert_to_absolute_path
+from src.MyVCSVisitor import MyVCSVisitor
 from src.VCSFacade import VCSFacade
 from src.VCSFactory import VersionControlFactory
 
@@ -16,6 +17,7 @@ def show_menu():
     print("This application allows you to interact with various Version Control Systems (Git, Mercurial, SVN) using a simple console interface.")
 
 def main_menu():
+    visitor = MyVCSVisitor()
     vcs_facade = VCSFacade(connection)
     version_control = None  # Initialize version_control object
 
@@ -36,7 +38,7 @@ def main_menu():
             repo_name = input(f"Enter the path to your {vcs_type} repository: ")
             repo_name = convert_to_absolute_path(repo_name)
             version_control = VersionControlFactory.create_version_control_system(connection, vcs_type)
-            vcs_facade.initialize_repository(vcs_type, repo_name)
+            # vcs_facade.initialize_repository(vcs_type, repo_name)
 
             while True:
                 print(f"Selected Version Control System: {vcs_type}")
@@ -65,7 +67,7 @@ def main_menu():
                     else:
                         print("Version control not initialized.")
                 elif action == "3":
-                    vcs_facade.show_repositories(vcs_type)
+                    vcs_facade.show_repositories(version_control)
                 elif action == "4":
                     break
                 else:

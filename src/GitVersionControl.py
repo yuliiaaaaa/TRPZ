@@ -7,12 +7,16 @@ from colorama import Fore, Style
 from IVersionSystemControl import IVersionControlSystem
 from Repository import Repository
 from RepositoryDTO import RepositoryDTO
+from src.GitIterator import GitRepositoryIterator
 
 
 class GitVersionControl(IVersionControlSystem):
     def __init__(self, connection):
         self.connection = connection
         self.repo = None
+
+    def accept(self, visitor):
+        visitor.visit_git(self)
 
     def initialize_repository(self, repo_directory, vcs_type):
         git_dir = os.path.join(repo_directory, ".git")
@@ -61,3 +65,12 @@ class GitVersionControl(IVersionControlSystem):
 
         else:
             print("Git: Not in a Git repository.")
+
+    def show_repositories(self):
+        repositories = Repository(self.connection).find_all()
+        iterator = GitRepositoryIterator(repositories)
+
+        print("\nRepositories for Git:")
+        for repository in iterator:
+            print(
+                Fore.BLUE + f"Name: {repository.name}, VCS Type: {repository.vcs_type}, URL: {repository.url}" + Fore.GREEN)

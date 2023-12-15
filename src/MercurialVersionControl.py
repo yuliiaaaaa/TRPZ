@@ -1,11 +1,13 @@
 import os
 
+from colorama import Fore
 from mercurial import hg, ui, commands
 from datetime import date
 
 from IVersionSystemControl import IVersionControlSystem
 from Repository import Repository
 from RepositoryDTO import RepositoryDTO
+from src.MercurialIterator import MercurialRepositoryIterator
 
 
 class MercurialVersionControl(IVersionControlSystem):
@@ -13,6 +15,8 @@ class MercurialVersionControl(IVersionControlSystem):
         self.connection = connection
         self.ui = ui.ui()
 
+    def accept(self, visitor):
+        visitor.visit_mercurial(self)
     def commit(self, repo_name, file_name, repo_id, message, commit_date):
         with self.repo.lock():
             # Add the file to the commit
@@ -59,3 +63,12 @@ class MercurialVersionControl(IVersionControlSystem):
                 repository.create(RepositoryDTO(None, repo_name, vcs_type, repo_directory))
             except Exception as e:
                 print(f"Error initializing Mercurial repository: {e}")
+
+    def show_repositories(self):
+        repositories = Repository(self.connection).find_all()
+        iterator = MercurialRepositoryIterator(repositories)
+
+        print("\nRepositories for Git:")
+        for repository in iterator:
+            print(
+                Fore.BLUE + f"Name: {repository.name}, VCS Type: {repository.vcs_type}, URL: {repository.url}" + Fore.GREEN)

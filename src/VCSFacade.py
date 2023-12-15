@@ -4,6 +4,7 @@ from DatabaseConnection import connection
 from src.AbsolutePathAdapter import AbsolutePathAdapter, convert_to_absolute_path
 from src.GitIterator import GitRepositoryIterator
 from src.MercurialIterator import MercurialRepositoryIterator
+from src.MyVCSVisitor import MyVCSVisitor
 from src.Repository import Repository
 from src.SVNIterator import SVNRepositoryIterator
 from src.VCSFactory import VersionControlFactory
@@ -22,19 +23,6 @@ class VCSFacade:
     def watch_history(self, version_control, repo_name):
         version_control.watch_history(repo_name)
 
-    def show_repositories(self, vcs_type):
-        repositories = Repository(connection).find_all()
-        if vcs_type == "Git":
-            iterator = GitRepositoryIterator(repositories)
-        elif vcs_type == "Mercurial":
-            iterator = MercurialRepositoryIterator(repositories)
-        elif vcs_type == "SVN":
-            iterator = SVNRepositoryIterator(repositories)
-        else:
-            print("Invalid VCS type")
-            return
+    def show_repositories(self, version_control):
+        version_control.accept(MyVCSVisitor())
 
-        # Display repositories for the chosen VCS type
-        print(f"\nRepositories for {vcs_type}:")
-        for repository in iterator:
-            print(Fore.BLUE + f"Name: {repository.name}, VCS Type: {repository.vcs_type}, URL: {repository.url}" + Fore.GREEN)
