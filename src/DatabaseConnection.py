@@ -1,13 +1,16 @@
 import psycopg2
 
+from src.config import dbname, port, host, password, user
+
+
 def get_database_connection():
     try:
         connection = psycopg2.connect(
-            dbname='vcsrepositories',
-            user='postgres',
-            password='postgres',
-            host='localhost',
-            port='5432'
+            dbname=dbname,
+            user=user,
+            password=password,
+            host=host,
+            port=port,
         )
         print("Connected to the database successfully.")
         return connection
@@ -15,5 +18,4 @@ def get_database_connection():
         print("Error connecting to the database:", e)
         return None
 
-# Виклик функції для отримання з'єднання
 connection = get_database_connection()

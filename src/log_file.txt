@@ -1,0 +1,288 @@
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 63728)
+INFO:root:Connected to ('127.0.0.1', 63728)
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 63763)
+INFO:root:Connected to ('127.0.0.1', 63763)
+INFO:root:Accepted connection from ('127.0.0.1', 63764)
+INFO:root:Connected to ('127.0.0.1', 63764)
+INFO:root:Accepted connection from ('127.0.0.1', 63759)
+INFO:root:Connected to ('127.0.0.1', 63759)
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 63766)
+INFO:root:Connected to ('127.0.0.1', 63766)
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 63785)
+INFO:root:Connected to ('127.0.0.1', 63785)
+INFO:root:Accepted connection from ('127.0.0.1', 63815)
+INFO:root:Connected to ('127.0.0.1', 63815)
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 63877)
+INFO:root:Accepted connection from ('127.0.0.1', 63876)
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 63912)
+INFO:root:Accepted connection from ('127.0.0.1', 63915)
+INFO:root:Accepted connection from ('127.0.0.1', 63914)
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 63933)
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64037)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64070)
+INFO:root:Accepted connection from ('127.0.0.1', 64068)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64069)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64073)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64091)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64105)
+INFO:root:Accepted connection from ('127.0.0.1', 64106)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64109)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64165)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64162)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64169)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64171)
+INFO:root:Accepted connection from ('127.0.0.1', 64172)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64191)
+INFO:root:Accepted connection from ('127.0.0.1', 64192)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10007. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64210)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64225)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64226)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64231)
+INFO:root:Accepted connection from ('127.0.0.1', 64245)
+INFO:root:Accepted connection from ('127.0.0.1', 64247)
+INFO:root:Accepted connection from ('127.0.0.1', 64248)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64246)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10009. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64251)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64267)
+INFO:root:Accepted connection from ('127.0.0.1', 64268)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64271)
+INFO:root:Accepted connection from ('127.0.0.1', 64280)
+INFO:root:Accepted connection from ('127.0.0.1', 64281)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64288)
+INFO:root:Accepted connection from ('127.0.0.1', 64289)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10009. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64290)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64306)
+INFO:root:Accepted connection from ('127.0.0.1', 64308)
+INFO:root:Accepted connection from ('127.0.0.1', 64307)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64309)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10009. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64312)
+INFO:root:Accepted connection from ('127.0.0.1', 64332)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64333)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64336)
+INFO:root:Accepted connection from ('127.0.0.1', 64356)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64357)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64360)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64425)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64430)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64433)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64447)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64448)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64451)
+INFO:root:Accepted connection from ('127.0.0.1', 64465)
+INFO:root:Accepted connection from ('127.0.0.1', 64466)
+INFO:root:Accepted connection from ('127.0.0.1', 64467)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64468)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10009. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64471)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64480)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64487)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64488)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64503)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64506)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64507)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64540)
+INFO:root:Accepted connection from ('127.0.0.1', 64541)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64544)
+INFO:root:Accepted connection from ('127.0.0.1', 64558)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64559)
+INFO:root:Accepted connection from ('127.0.0.1', 64560)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64561)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10009. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64564)
+INFO:root:Accepted connection from ('127.0.0.1', 64598)
+INFO:root:Accepted connection from ('127.0.0.1', 64600)
+INFO:root:Accepted connection from ('127.0.0.1', 64599)
+INFO:root:Accepted connection from ('127.0.0.1', 64602)
+INFO:root:Accepted connection from ('127.0.0.1', 64601)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64603)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10010. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64606)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64620)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64621)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64624)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64653)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64654)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64657)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64677)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64681)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64682)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64683)
+INFO:root:Accepted connection from ('127.0.0.1', 64684)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64701)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64702)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64705)
+INFO:root:Accepted connection from ('127.0.0.1', 64714)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64721)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64722)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64723)
+INFO:root:Accepted connection from ('127.0.0.1', 64724)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64755)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64756)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64759)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64774)
+INFO:root:Accepted connection from ('127.0.0.1', 64776)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64779)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64795)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64796)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64799)
+INFO:root:Accepted connection from ('127.0.0.1', 64809)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64816)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64818)
+INFO:root:Accepted connection from ('127.0.0.1', 64850)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64851)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64854)
+INFO:root:Accepted connection from ('127.0.0.1', 64875)
+INFO:root:Accepted connection from ('127.0.0.1', 64876)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64879)
+INFO:root:Accepted connection from ('127.0.0.1', 64894)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Accepted connection from ('127.0.0.1', 64895)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+INFO:root:Server started on port 10008. Waiting for connections...
+INFO:root:Accepted connection from ('127.0.0.1', 64898)
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение
+ERROR:root:Connection reset: [WinError 10053] Программа на вашем хост-компьютере разорвала установленное подключение

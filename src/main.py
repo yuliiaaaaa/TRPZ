@@ -17,7 +17,6 @@ def show_menu():
     print("This application allows you to interact with various Version Control Systems (Git, Mercurial, SVN) using a simple console interface.")
 
 def main_menu():
-    visitor = MyVCSVisitor()
     vcs_facade = VCSFacade(connection)
     version_control = None  # Initialize version_control object
 

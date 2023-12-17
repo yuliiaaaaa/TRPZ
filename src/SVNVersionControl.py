@@ -53,7 +53,7 @@ class SVNVersionControl(IVersionControlSystem):
         repositories = Repository(self.connection).find_all()
         iterator = SVNRepositoryIterator(repositories)
 
-        print("\nRepositories for Git:")
+        print("\nRepositories for SVN")
         for repository in iterator:
             print(
                 Fore.BLUE + f"Name: {repository.name}, VCS Type: {repository.vcs_type}, URL: {repository.url}" + Fore.GREEN)

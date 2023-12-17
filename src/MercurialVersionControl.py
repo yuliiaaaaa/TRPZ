@@ -47,15 +47,18 @@ class MercurialVersionControl(IVersionControlSystem):
             print(f"Error while watching commit history: {e}")
 
     def initialize_repository(self, repo_directory, vcs_type):
+        # Encode the repo_directory string to bytes
+        repo_directory_bytes = repo_directory.encode('utf-8')
+
         # Check if the directory is already a Mercurial repository
         if os.path.isdir(os.path.join(repo_directory, '.hg')):
             print(f"Mercurial repository already exists in: {repo_directory}")
             # Initialize the Mercurial repository
-            self.repo = hg.repository(ui.ui(), repo_directory)
+            self.repo = hg.repository(ui.ui(), repo_directory_bytes)
         else:
             try:
                 # Initialize a new Mercurial repository
-                commands.init(ui.ui(), repo_directory.encode('utf-8'))
+                commands.init(ui.ui(), repo_directory_bytes)
                 print(f"Mercurial repository initialized successfully in: {repo_directory}")
                 # Insert repository details into the database using the existing Repository class
                 repo_name = os.path.basename(repo_directory)
@@ -68,7 +71,7 @@ class MercurialVersionControl(IVersionControlSystem):
         repositories = Repository(self.connection).find_all()
         iterator = MercurialRepositoryIterator(repositories)
 
-        print("\nRepositories for Git:")
+        print("\nRepositories for Mercurial:")
         for repository in iterator:
             print(
                 Fore.BLUE + f"Name: {repository.name}, VCS Type: {repository.vcs_type}, URL: {repository.url}" + Fore.GREEN)
