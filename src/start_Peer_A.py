@@ -1,6 +1,6 @@
 import threading
 
-from src.Peer import start_server_peer, start_client_peer
+from src.Peer.Peer import start_server_peer, start_client_peer
 
 
 def main():

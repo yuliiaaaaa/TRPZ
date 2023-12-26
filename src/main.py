@@ -1,15 +1,10 @@
 import os
 
 from colorama import Fore
-from DatabaseConnection import connection
-from GitIterator import GitRepositoryIterator
-from MercurialIterator import MercurialRepositoryIterator
-from Repository import Repository
-from SVNIterator import SVNRepositoryIterator
-from src.AbsolutePathAdapter import AbsolutePathAdapter, convert_to_absolute_path
-from src.MyVCSVisitor import MyVCSVisitor
-from src.VCSFacade import VCSFacade
-from src.VCSFactory import VersionControlFactory
+from src.DB.DatabaseConnection import connection
+from src.modules.AbsolutePathAdapter import convert_to_absolute_path
+from src.modules.VCSFacade import VCSFacade
+from src.modules.VCSFactory import VersionControlFactory
 
 
 def show_menu():
